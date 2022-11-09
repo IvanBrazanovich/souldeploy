@@ -2,7 +2,10 @@
   "name": "souldeploy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://IvanBrazanovich.github.io/souldeploy",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,6 +14,7 @@
   "dependencies": {
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
+    "gh-pages": "^4.0.0",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
