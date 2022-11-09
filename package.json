@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://IvanBrazanovich.github.io/souldeploy",
   "scripts": {
+    "export": "next export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
