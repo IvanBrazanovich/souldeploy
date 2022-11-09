@@ -6,7 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  assetPrefix: "./",
+  assetPrefix: "./nextjs-pages",
+  basePath: "/nextjs-pages",
 };
 
 export default nextConfig;
